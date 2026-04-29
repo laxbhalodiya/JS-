@@ -54,3 +54,22 @@ const myFunction = function(){
 // Where are this memory is used: stack(Primitive), Heap(Non-Primitive)
 
 let myName = "Lax"
+
+let anotherName = myName
+anotherName = "Lax Bhalodiya"
+
+// console.log(myName);
+// console.log(anotherName);
+
+let userOne = {
+    email : "user@gmailo.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "lax@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
