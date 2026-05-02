@@ -10,9 +10,17 @@
 
 
 (function aurcode(){
+    // this is named iife
     console.log(`DB CONNECTED`);
 })();
 
 ( () => {
     console.log(`DB CONNECTED TWO`)
-})()
+})();
+
+( (name) => {
+    // unnamed iife(simple iife)
+    console.log(`DB CONNECTED TWO ${name}`)
+})("Lax")
+
+
